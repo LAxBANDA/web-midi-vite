@@ -1,0 +1,56 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+label > i.material-icons {
+  vertical-align: middle;
+}
+
+button > i.material-icons {
+  vertical-align: middle;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.file-input {
+  display: block;
+  margin: 1rem 0;
+}
+
+input[type='file'] {
+  display: none;
+}
